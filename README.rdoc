@@ -1,4 +1,4 @@
-== Welcome to builDegree !
+Welcome to builDegree!
 
 builDegree is a web application that meets all your degree scheduling needs!
 
