@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    <%= stylesheet_link_tag "application", media: "all",
+    "data-turbolinks-track" => true %>
+  </title>
+  <%= csrf_meta_tags %>
+  <%= render template:'layouts/shim' %>
+</head>
+<body>
+  <%= render template:'layouts/header' %>
+  <div class="container">
+    <%= yield %>
+    <%= render template:'layouts/footer' %>
+  </div>
+</body>
+</html>
